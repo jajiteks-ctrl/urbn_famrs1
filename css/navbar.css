@@ -1,0 +1,51 @@
+*{
+    font-family: serif;
+}
+
+.logo {
+    width: 150px;
+}
+
+.header-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top:0;
+    z-index:1000;
+
+}
+
+.nav-container {
+    display: flex;
+    gap: 20px;
+    font-size: 19px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+
+.hamberger-doc {
+    display:none;
+
+}
+
+@media (max-width : 996px){
+    .hamberger-doc {
+        display:block;
+    }
+    .nav-container {
+        display:none;
+    }
+
+    .bn-container {
+        display:none;
+    }
+}

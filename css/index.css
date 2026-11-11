@@ -1,0 +1,134 @@
+
+.get-started {
+    background-color: #a4dba4;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+
+.hero-img {
+    width:400px;
+    padding:20px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:20px;
+    flex-wrap: wrap;
+   
+   
+}
+
+.hero-head {
+    color:darkgreen;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.start {
+     background-color: darkgreen;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+    color:white;
+    letter-spacing: 2px;
+    font-size: 15px;;
+
+}
+
+.learn {
+    
+     background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    border : 2px solid darkgreen;
+    color:darkgreen;
+     letter-spacing: 2px;
+    font-size: 15px;;
+
+}
+
+.urban-para {
+    font-size: 18px;;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.text-card {
+    text-align: center;
+}
+
+
+
+.contact-container {
+    background-image: url("./images/cont-hero.avif");
+    height:100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.con-img {
+    width:250px;
+}
+
+.section-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+    align-items: center;
+    padding:25px;
+}
+
+.form-container {
+    padding:15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input {
+    width:90%;
+    padding:10px;
+    margin:15px;
+}
+
+textarea {
+    padding: 10px;
+    width:90%;
+    margin:15px;
+}
+
+.form-btn {
+    background-color: darkgreen;
+    padding:12px;
+    color:white;
+    border-style:none;
+    width:100%;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+
+.truck-icons {
+    font-size: 45px;
+    color:red;
+}
+
+.heart-Container {
+    font-size: 35px;;
+    color:#a4dba4;
+    position: fixed;
+    bottom:15px;
+    right:15px;
+}
+
+.you-containet {
+    font-size: 35px;
+    color:red;
+    position:fixed;
+    bottom:55px;
+    right:15px;
+}
